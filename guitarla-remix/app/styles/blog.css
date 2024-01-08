@@ -1,0 +1,92 @@
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+@media (min-width: 768px){
+    .blog{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px){
+    .blog{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.blog .resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.blog .enlace {
+    margin-top: 2rem;
+    display: block;
+    background-color: black;
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+.blog .enlace:hover {
+    background-color: var(--primary);
+}
+
+
+.post{
+    max-width: 80rem;
+    margin: 3rem auto 0 auto;
+}
+
+
+.post .contenido {
+    padding: 1rem;
+    align-items: center;
+}
+
+.post .contenido h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.post .fecha {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.post .descripcion {
+    white-space: pre-wrap;
+    
+}
+
+.mt-3 {
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+.imagen {
+    height: auto; /* Para mantener la proporción de la imagen */
+    display: block; /* Esto elimina el espacio adicional por debajo de la imagen */
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+  }
+
+.post .fecha1 {
+    text-align: right;
+    color: var(--primary);
+    font-size: 1.5rem;
+}  

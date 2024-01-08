@@ -1,0 +1,115 @@
+.contenido {
+    display: grid;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+@media (min-width: 768px) {
+    .contenido {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+.carrito {
+    padding: 3rem;
+}
+
+.resumen {
+    background-color: hsl(165, 11%, 85%);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: sticky;
+    top: 3rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.formulario select {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+}
+
+.formulario input[type="submit"] {
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem; /* Ajuste de los valores de padding para mejorar el aspecto */
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    border: none; /* Eliminando el borde si no es necesario */
+    cursor: pointer; /* Cambiando el cursor a una mano para indicar que es un elemento interactivo */
+    transition: background-color 0.3s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.producto {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 4rem;
+    align-items: center;
+    padding: 3rem 0;
+    border-bottom: 1px solid #cfcfcf;
+    position: relative;
+}
+
+.producto:last-of-type {
+    border-bottom: none;
+}
+
+.nombre {
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: var(--black);
+}
+
+.precio {
+    font-weight: 700;
+    color: var(--primary);
+    margin-top: 2rem;
+}
+.subtotal{
+    font-size: 2.2rem;
+}
+
+.producto p {
+    margin: 0 0 1rem 0;
+}
+
+.producto span {
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+
+.select {
+    all: unset;
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.btn_eliminar {
+    all: unset;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
+
+.btn_eliminar:hover {
+    cursor:pointer
+}
