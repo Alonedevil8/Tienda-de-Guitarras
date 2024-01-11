@@ -4,6 +4,7 @@ Bienvenido a Guitarla Remix, tu destino único para explorar el mundo de la guit
 Descripción
 
 Guitarla Remix es una tienda en línea que combina la venta de guitarras de alta calidad con cursos educativos sobre cómo tocar este maravilloso instrumento. Nuestro objetivo es proporcionar a nuestros clientes no solo instrumentos de primera clase, sino también recursos educativos que les permitan desarrollar su pasión por la guitarra.
+
 Características
 
     Tienda de Guitarras: Explora una amplia variedad de guitarras, desde modelos clásicos hasta innovadoras creaciones. Todas nuestras guitarras están seleccionadas cuidadosamente para ofrecer un sonido excepcional y una experiencia de juego incomparable.
